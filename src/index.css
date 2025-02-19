@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.inputDesign {
+  @apply border font-normal px-2 py-2 mt-2 rounded-sm text-[18px];
+}
+
+.labelDesign {
+  @apply flex flex-col mb-3 font-bold text-xl;
+}
