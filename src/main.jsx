@@ -7,6 +7,8 @@ import NotFound from "./Pages/NotFound.jsx";
 import Joke from "./Pages/Joke.jsx";
 import PasswordValidator from "./Pages/PasswordValidator.jsx";
 import RoleDice from "./Pages/RoleDice.jsx";
+import Practice2 from "./Pages/Practice2/Practice2.jsx";
+import Rps from "./Pages/Rps.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Router>
@@ -16,6 +18,8 @@ createRoot(document.getElementById("root")).render(
       <Route path="/joke" element={<Joke />} />
       <Route path="/PasswordValidator" element={<PasswordValidator />} />
       <Route path="/RoleDice" element={<RoleDice />} />
+      <Route path="/Practice2" element={<Practice2 />} />
+      <Route path="/Rps" element={<Rps />} />
     </Routes>
   </Router>
 );
