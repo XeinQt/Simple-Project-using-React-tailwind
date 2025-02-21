@@ -9,6 +9,7 @@ import PasswordValidator from "./Pages/PasswordValidator.jsx";
 import RoleDice from "./Pages/RoleDice.jsx";
 import Practice2 from "./Pages/Practice2/Practice2.jsx";
 import Rps from "./Pages/Rps.jsx";
+import TodoList from "./Pages/TodoList.jsx";
 
 createRoot(document.getElementById("root")).render(
   <Router>
@@ -20,6 +21,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/RoleDice" element={<RoleDice />} />
       <Route path="/Practice2" element={<Practice2 />} />
       <Route path="/Rps" element={<Rps />} />
+      <Route path="/TodoList" element={<TodoList />} />
     </Routes>
   </Router>
 );
