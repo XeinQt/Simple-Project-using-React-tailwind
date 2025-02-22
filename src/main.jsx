@@ -10,7 +10,7 @@ import RoleDice from "./Pages/RoleDice.jsx";
 import Practice2 from "./Pages/Practice2/Practice2.jsx";
 import Rps from "./Pages/Rps.jsx";
 import TodoList from "./Pages/TodoList.jsx";
-
+import Qr from "./Pages/Qr.jsx";
 createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
@@ -22,6 +22,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/Practice2" element={<Practice2 />} />
       <Route path="/Rps" element={<Rps />} />
       <Route path="/TodoList" element={<TodoList />} />
+      <Route path="/Qr" element={<Qr />} />
     </Routes>
   </Router>
 );
